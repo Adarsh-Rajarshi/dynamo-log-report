@@ -1,3 +1,2 @@
-# Local Harbor run outputs
+# Local Harbor run outputs (created by `harbor run`)
 jobs/
-*.log
