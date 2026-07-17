@@ -1,0 +1,3 @@
+# Local Harbor run outputs
+jobs/
+*.log
