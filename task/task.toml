@@ -14,7 +14,7 @@ model_tested = "GPT-5.4"
 agent_tested = "Terminus-2"
 difficulty_explanation = "Parse a small access log and emit summary stats."
 solution_explanation = "Read the log, count requests/unique IPs, find the top path."
-verification_explanation = "Parse /app/report.json and assert total_requests, unique_ips, and top_path equal the known values for the bundled access.log."
+verification_explanation = "pytest checks one criterion per test: /app/report.json is a valid JSON object, and total_requests, unique_ips, and top_path equal the known values for the bundled access.log."
 
 [verifier]
 timeout_sec = 120.0
